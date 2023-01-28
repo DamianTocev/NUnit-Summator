@@ -13,28 +13,27 @@ namespace Summator
             long sum = 0;
             for (int i = 0; i < arr.Length; i++)
             {
-                sum += arr[i];
+                Sum += arr[i];
+            }
+            return Sum;
             }
             return sum;
         }
 
-        public static double Average(int[] arr)
+
+    internal class Average
+    {
+        public static double AverageNums(double[] arr)
         {
             double sum = 0;
-            {
+
                 for (int i = 0; i < arr.Length; i++)
                 {
                     sum += arr[i];
                 }
+
                 return sum / arr.Length;
             }
-
-        }
-
-        internal static string Averege(int[] ints)
-        {
-            throw new NotImplementedException();
         }
     }
-}
 
