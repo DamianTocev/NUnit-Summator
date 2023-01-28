@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Summator", "ConsoleApp1\Summator.csproj", "{F8283FF9-8909-4709-B121-1B8B587DDFE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Summator.Unit.Tests", "Summator.Unit.Test\Summator.Unit.Tests.csproj", "{A5D935F7-D88A-4475-A9B7-31856FE75768}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Summator.Unit.Tests", "Summator.Unit.Test\Summator.Unit.Tests.csproj", "{A5D935F7-D88A-4475-A9B7-31856FE75768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Average.Unit.Tests", "Average.Unit.Tests\Average.Unit.Tests.csproj", "{3D55FE5E-8BC5-43E8-8994-D1CA27755C3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A5D935F7-D88A-4475-A9B7-31856FE75768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5D935F7-D88A-4475-A9B7-31856FE75768}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5D935F7-D88A-4475-A9B7-31856FE75768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D55FE5E-8BC5-43E8-8994-D1CA27755C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D55FE5E-8BC5-43E8-8994-D1CA27755C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D55FE5E-8BC5-43E8-8994-D1CA27755C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D55FE5E-8BC5-43E8-8994-D1CA27755C3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

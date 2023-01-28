@@ -6,7 +6,7 @@ namespace Summator.Unit.Test
     {
 
         [Test]
-        public void Test_Summator_SumTwoNegativeNumbers()
+        public void Test_Summator_SumTwoPositiveNumbers()
         {
             //Arange
             var nums = new int[] { 1, 2 };
@@ -17,7 +17,7 @@ namespace Summator.Unit.Test
         }
 
         [Test]
-        public void Test_Summator_SumTwoPositiveNumbers()
+        public void Test_Summator_SumTwoNegativeNumbers()
         {
             //Arange
             var nums = new int[] { -1, -99 };
@@ -117,5 +117,9 @@ namespace Summator.Unit.Test
             //Assert
             Assert.That(21, Is.GreaterThan(20));
         }
+
+
+
+
     }
 }
